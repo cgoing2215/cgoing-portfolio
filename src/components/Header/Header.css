@@ -1,0 +1,131 @@
+#intro-section {
+    margin-top: 1rem;
+    background-image: url(../Header/img/mobile-hero-shapes.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    height: 70vh;
+}
+
+#intro-section h1 {
+    background: #c0c305;
+    color: white;
+    width: 14rem;
+    height: 8rem;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 400;
+    margin-left: 1rem;
+    padding-left: 1rem;
+}
+
+#intro-section h3 {
+    display: flex;
+    padding: 1rem;
+    margin-top: 2.5rem;
+    margin-left: 20%;
+    background: #FFF;
+    color: #AF5C98;
+    font-family: Bellota Text;
+    text-align: left;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#intro-section p {
+    width: 21rem;
+    height: 4rem;
+    flex-shrink: 0;
+    display: flex;
+    background: #4650AB;
+    color: #FFF;
+    font-family: Bellota Text;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: .5rem;
+    margin-top: 2.5rem;
+}
+
+#line {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 23rem){
+    #intro-section p {
+        width: 95%;
+    }
+}
+
+@media (min-width: 34rem){
+    #intro-section {
+        background-image: url('./img/tablet-hero-shapes.png');
+        background-position: 30% 0%;
+    }
+
+    #intro-section h1 {
+        margin-left: 6%;
+    }
+
+    #intro-section h3 {
+        width: 23rem;
+        margin-left: 23%;
+    }
+
+    #intro-section p {
+        margin-left: 3%;
+        margin-top: 4rem;
+        width: 24rem;
+    }
+}
+
+@media (min-width: 42rem){
+    #intro-section h1 {
+        margin-left: 13%;
+    }
+
+    #intro-section h3 {
+        margin-left: 33%;
+    }
+
+    #intro-section p {
+        margin-left: 11%;
+        margin-top: 5rem;
+    }
+}
+
+@media (min-width: 52rem){
+    #intro-section h3 {
+        margin-left: 45%;
+    }
+
+}
+
+@media (min-width: 62.5rem){
+    #intro-section {
+        background-image: url('./img/desktop-hero-shapes.png');
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 81rem){
+    #intro-section {
+        background-image: url('./img/x-large-desktop-hero-shapes.png');
+        background-size: 140%;
+        background-position: 45% 50%;
+    }
+}

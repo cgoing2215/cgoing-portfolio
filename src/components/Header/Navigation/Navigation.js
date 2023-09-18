@@ -4,10 +4,10 @@ import Logo from '../img/CG logo.png'
 
 
 function Navigation() {
-  const [isNavMenuOpen, setIsNavMenuOpen] = useState(false);
+  const [sidebar, setSidebar] = useState(false);
 
-  const toggleNavMenu = () => {
-    setIsNavMenuOpen(!isNavMenuOpen);
+  const showSideBar = () => {
+    setSidebar(!sidebar);
   };
 
   return (
@@ -19,15 +19,22 @@ function Navigation() {
             <h4>Caroline Going</h4>
           </a>
         </div>
-        <div className="hamburger" onClick={toggleNavMenu}>
-          <label htmlFor="check">
+        <div className="hamburger">
+          <label htmlFor="check" onClick={showSideBar}>
             <input type="checkbox" id="check" />
             <span></span>
             <span></span>
             <span></span>
           </label>
         </div>
-        <div id="navigation-row" className={isNavMenuOpen ? "" : "hidden"}>
+        <div id="sidebar-container" className={sidebar ? " " : "hidden"}>
+          <ul id="navigation__list">
+            <li><a href="#about-section-container">About</a></li>
+            <li><a href="#portfolio-section-container">Portfolio</a></li>
+            <li><a href="#contact-container">Contact</a></li>
+          </ul>
+        </div>
+        <div id="navigation-row" className="hidden">
           <nav>
             <ul>
               <li><a href="#about-section-container">About</a></li>
@@ -36,14 +43,6 @@ function Navigation() {
             </ul>
           </nav>
         </div>
-      </div>
-      <div id="navSideMenu-container" className={isNavMenuOpen ? "" : "hidden"}>
-        <div id="navigation__background">&nbsp;</div>
-        <ul id="navigation__list">
-          <li><a href="#about-section-container">About</a></li>
-          <li><a href="#portfolio-section-container">Portfolio</a></li>
-          <li><a href="#contact-container">Contact</a></li>
-        </ul>
       </div>
     </div>
   )

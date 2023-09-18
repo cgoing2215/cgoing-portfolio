@@ -14,19 +14,6 @@
 .hamburger {
   margin-top: 7%;
   margin-right: 3%;
-  position: sticky;
-}
-
-#navigation__background {
-  height: 4.3rem;
-  width: 4.3rem;
-  border-radius: 50%;
-  position: fixed;
-  top: 6.5rem;
-  right: 6.5rem;
-  background-image: 4650AB;
-  z-index: 1000;
-  transition: transform .1s;
 }
 
 #navigation__list {
@@ -149,9 +136,26 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3){
   display: none;
 }
 
-#navSideMenu-container{
+#sidebar-container{
   background: #4650AB;
   height: 100vh;
+  width: 100%;
+}
+
+#navigation__list {
+  width: 70%;
+  list-style: none;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  top: 35%;
+}
+
+#navigation__list li {
+  font-size: 2rem;
+  margin: 2rem 0;
+  letter-spacing: .15rem;
 }
 
 /* MEDIA QUERIES */

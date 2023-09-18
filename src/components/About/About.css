@@ -1,10 +1,10 @@
 #about-section-container {
     background: #D9D9D9;
-    margin-top: 6rem;
+    margin-top: 5rem;
     background-image: url("./img/headshot.png");
-    background-size: 20rem;
+    background-size: 16rem;
     background-repeat: no-repeat;
-    background-position: 95% 5%;
+    background-position: 95% 4%;
 }
 
 #about-section-container h3{
@@ -36,7 +36,7 @@
 }
 
 #about-text {
-    margin: 19rem 2rem 3.5rem 2rem;
+    margin: 17.5rem 2.25rem 3.5rem 2.25rem;
 }
 
 #about-text p {
@@ -62,7 +62,7 @@
 }
 
 #lang-proficiencies img {
-    width: 22rem;
+    width: 20rem;
     height: auto;
     margin: 0 0 .75rem 0;
     flex-shrink: 1;
@@ -115,7 +115,7 @@
 
     #lang-proficiencies img {
         width: 80%;
-        max-width: 30rem;
+        max-width: 26rem;
     }
 
     #resume-btn {
@@ -123,22 +123,23 @@
     }
 
     #about-text {
-        margin: 20rem 10% 3.5rem 10%;
+        margin: 16rem 10% 3.5rem 10%;
     }
 }
 
 @media (min-width: 42rem){
-
+    #about-text {
+        margin: 15.5rem 10% 3.5rem 10%;
+    }
 }
 
 @media (min-width: 51rem){
-
+    #about-text {
+        margin: 14.5rem 10% 3.5rem 10%;
+    }
 }
 
 @media (min-width: 62.5rem){
-    #about-section-container h3{
-
-    }
 
     #about-section-container {
         margin-top: 0rem;

@@ -7,6 +7,7 @@ import './Footer.css'
 function Footer() {
   return (
     <div id="footer-container">
+      <div id="footer-content">
         <div id="contact">
             <h3>Contact</h3>
             <a href="mailto:hi@carolinegoing.com">hi@carolinegoing.com</a>
@@ -20,6 +21,7 @@ function Footer() {
                 <a href="https://medium.com/@carolinegoing2"><img src={Medium} alt="Medium Logo"/></a>
             </div>
         </div>
+      </div>
     </div>
   )
 }

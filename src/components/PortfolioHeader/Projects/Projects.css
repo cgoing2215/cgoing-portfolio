@@ -12,29 +12,30 @@
 #project-card {
     font-family: 'Hubballi', cursive;
     border: 1px solid black;
-    border-radius: 1rem;
-    margin: 1.5rem 0;
+    border-radius: .65rem;
+    margin: 1.25rem 0;
     padding: 2rem 0rem;
     background: white;
-    max-width: 20rem;
+    max-width: 21rem;
 }
 
 #project-card h1 {
-    margin: 0 1rem 2rem 1rem;
+    margin: 1rem 1rem 1.75rem 1rem;
     font-family: 'Hubballi', cursive;
     font-size: 1.75rem;
     font-weight: lighter;
 }
 
 #project-card img {
-    height: 12rem;
-    border-radius: .5rem;
-    margin-bottom: 1.5rem;
+    height: 13rem;
+    border-radius: .25rem;
+    margin-bottom: 1rem;
+    border: 1px solid black;
 }
 
 #project-description {
     text-align: justify;
-    margin: 1rem 1.5rem 2rem 1.5rem;
+    margin: 1rem 2.5rem 2rem 2.5rem;
 }
 
 #skills {
@@ -84,6 +85,8 @@
         flex-flow: row wrap;
         justify-content: space-evenly;
         align-items: center;
+        margin-bottom: 0%;
+        padding-bottom: 5%;
     }
 
     #project-cards-container {
@@ -100,13 +103,5 @@
     #project-card h1{
         margin-top: 2rem;
         margin-bottom: 2rem;
-    }
-}
-
-@media (min-width: 46rem){
-    #project-card {
-    }
-
-    #project-cards-container {
     }
 }

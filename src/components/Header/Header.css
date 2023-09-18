@@ -1,17 +1,17 @@
 #intro-section {
-    margin-top: 1rem;
-    background-image: url(../Header/img/mobile-hero-shapes.png);
+    background-image: url('./img/tablet-hero-shapes.png');
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: 100% 0%;
     height: 70vh;
+    margin-top: 6.5rem;
 }
 
 #intro-section h1 {
     background: #c0c305;
     color: white;
-    width: 14rem;
-    height: 8rem;
+    width: 13rem;
+    height: 6rem;
     flex-shrink: 0;
     display: flex;
     justify-content: left;
@@ -32,20 +32,20 @@
     color: #AF5C98;
     font-family: Bellota Text;
     text-align: left;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-style: normal;
     font-weight: 400;
 }
 
 #intro-section p {
-    width: 21rem;
-    height: 4rem;
+    width: 16rem;
+    height: 3rem;
     flex-shrink: 0;
     display: flex;
     background: #4650AB;
     color: #FFF;
     font-family: Bellota Text;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.25rem;
@@ -54,7 +54,8 @@
     align-items: center;
     text-align: left;
     padding: .5rem;
-    margin-top: 2.5rem;
+    margin-top: 4rem;
+    margin-left: 1rem;
 }
 
 #line {
@@ -67,13 +68,12 @@
 
 @media (max-width: 23rem){
     #intro-section p {
-        width: 95%;
+        width: 90%;
     }
 }
 
 @media (min-width: 34rem){
     #intro-section {
-        background-image: url('./img/tablet-hero-shapes.png');
         background-position: 30% 0%;
     }
 
@@ -95,16 +95,16 @@
 
 @media (min-width: 42rem){
     #intro-section h1 {
-        margin-left: 13%;
+        margin-left: 20%;
     }
 
     #intro-section h3 {
-        margin-left: 33%;
+        margin-left: 30%;
     }
 
     #intro-section p {
-        margin-left: 11%;
-        margin-top: 5rem;
+        margin-left: 15%;
+        margin-top: 3.5rem;
     }
 }
 

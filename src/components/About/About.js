@@ -23,7 +23,7 @@ function About() {
           From tech recruiting, my focus has been on empathic user-focused design, thinking strategically about 
           what motivates a candidate and how to inspire them to take action. As an avid reader and a former 
           English major, I have keen eye for style and voice, and find their use in brand design and psychology 
-          truly fascinating.
+          fascinating.
         </p>
         <p>
           When I'm not coding, you can find me reading in Prospect Park, exploring art installations and museums in Manhattan

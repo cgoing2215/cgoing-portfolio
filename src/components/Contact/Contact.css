@@ -12,6 +12,7 @@
     background: #B0B404;
     width: 16rem;
     height: 3rem;
+    margin-top: 3rem;
     margin-bottom: 0;
     color: #FFF;
     text-align: center;
@@ -33,6 +34,7 @@
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    font-family: 'Hubballi', cursive;
     padding-top: 0;
     margin-top: 0;
     height: 10rem;
@@ -41,7 +43,6 @@
 #get-in-touch-line {
     display: flex;
     color: #000;
-    font-family: 'Nunito', sans-serif;
     font-size: 2rem;
     font-style: normal;
     font-weight: lighter;

@@ -5,6 +5,10 @@ a {
 
 #footer-container {
     background: black;
+}
+
+#footer-content {
+    background: black;
     color: white;
     font-family: 'Hubballi', sans-serif;
     width: 100%;
@@ -13,7 +17,7 @@ a {
     justify-content: space-around;
 }
 
-#footer-container h3 {
+#footer-content h3 {
     font-size: 1.35rem;
     font-style: normal;
     font-weight: 700;
@@ -55,18 +59,47 @@ a {
 
 /* MEDIA QUERIES */
 
-@media (min-width: 31rem){
+@media (max-width: 26rem){
+    #footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
+    #footer-content h3 {
+        display: none;
+    }
+
+    #contact a {
+        font-size: 1.1rem;
+    }
 }
 
-@media (min-width: 48rem){
-
+@media (min-width: 40rem){
+    #footer-content{
+        margin: 0 3%;
+        width: auto;
+    }
 }
 
-@media (min-width: 62.5rem){
-
+@media (min-width: 50rem){
+    #footer-content{
+        margin: 0 7%;
+        width: auto;
+    }
 }
 
-@media (min-width: 75rem){
+@media (min-width: 60rem){
+    #footer-content{
+        margin: 0 12%;
+        width: auto;
+    }
+}
 
+@media (min-width: 70rem){
+    #footer-content{
+        margin: 0 18%;
+        width: auto;
+    }
 }

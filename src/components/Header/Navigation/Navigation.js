@@ -27,7 +27,7 @@ function Navigation() {
             <span></span>
           </label>
         </div>
-        <div id="sidebar-container" className={sidebar ? " " : "hidden"}>
+        <div id="sidebar-container" className={sidebar ? "show" : "hidden"}>
           <ul id="navigation__list">
             <li><a href="#about-section-container">About</a></li>
             <li><a href="#portfolio-section-container">Portfolio</a></li>

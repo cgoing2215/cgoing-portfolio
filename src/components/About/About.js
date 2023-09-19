@@ -12,23 +12,21 @@ function About() {
         </p>
         <p>
           In Spring 2023, I made a career pivot from tech recruiting to web development & UI design, with 
-          the intent of building websites and applications with engaging designs that exude sophistication, 
-          interactivity, and user-friendliness.
+          the intent of building websites and applications that exude sophistication, intuitive design, and
+          user-friendliness.
         </p>
         <p>
-          Within two months of my pivot, I completed the <a href="https://skillcrush.com/">SkillCrush</a> Break-Into-Tech bootcamp, 
+          Within two months, I completed the <a href="https://skillcrush.com/">SkillCrush</a> Break-Into-Tech bootcamp, 
           learning FE languages alongside fundamental web design principles, all while building out numerous <a href="#portfolio-section-container">projects</a>, sites and 
-          applications that allow for varied user experiences. 
+          applications that allow for varied user capabilities. 
         </p>
         <p>
-          My tech recruiting background ingrained a deep-rooted commitment to empathic user-focused design, 
-          thinking strategically about what motivates a candidate and how to inspire them to action. 
-          Now, my mission is to incorporate this approach into web development and UI design, continually seeking new ways 
-          to captivate and inspire users.
+          My tech recruiting background ingrained a deep-rooted commitment to empathic user-focused design, helping me to
+          think more strategically about what motivates a candidate and how to inspire them to action. 
         </p>
         <p>
-          Outside of coding, you can find me reading a book or magazine in Prospect Park, taking on a new skill like creative writing or the harmonica --
-          or just sitting in a favorite coffee shop, hunting for the latest trends in web dev and UI design. 
+          Outside of coding, you can find me listening to podcasts in Prospect Park, wandering new neighborhoods in the city,
+          or sitting in a favorite coffee shop, finding the latest trends in web dev and UI design. 
         </p>
         <div id="lang-proficiencies">
           <img src={LanguagesProficiencies} alt="Languages and Proficiences"/>

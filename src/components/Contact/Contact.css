@@ -34,10 +34,16 @@
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    font-family: 'Hubballi', cursive;
     padding-top: 0;
     margin-top: 0;
     height: 10rem;
+}
+
+#contact-call-to-action h5{
+    font-family: Bellota Text;
+    font-size: 1.35rem;
+    font-weight: light;
+    letter-spacing: .2rem;
 }
 
 #get-in-touch-line {

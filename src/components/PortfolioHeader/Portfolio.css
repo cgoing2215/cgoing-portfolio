@@ -1,4 +1,4 @@
-#portfolio-section-container {
+#portfolio {
     margin-top: 4.5rem;
     background-image: url(./img/white-rectangle.png);
     background-size: cover;
@@ -6,7 +6,7 @@
     background-position: 50% .1%;
 }
 
-#portfolio-section-container h3{
+#portfolio h3{
     width: 16rem;
     height: 3rem;
     display: flex;

@@ -1,4 +1,4 @@
-#contact-container {
+#contact {
     height: 22rem;
     display: flex;
     flex-flow: column nowrap;
@@ -8,7 +8,7 @@
     background: rgb(237, 237, 237);
 }
 
-#contact-container h3 {
+#contact h3 {
     background: #B0B404;
     width: 16rem;
     height: 3rem;
@@ -94,7 +94,7 @@
   /* MEDIA QUERIES */
 
 @media (min-width: 31rem){
-    #contact-container {
+    #contact {
         height: 50%;
     }
 }

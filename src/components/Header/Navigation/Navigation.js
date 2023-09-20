@@ -19,27 +19,27 @@ function Navigation() {
             <h4>Caroline Going</h4>
           </a>
         </div>
-        <div className="hamburger">
-          <label htmlFor="check" onClick={showSideBar}>
+        <div className="hamburger" onClick={showSideBar}>
+          <label htmlFor="check">
             <input type="checkbox" id="check" />
             <span></span>
             <span></span>
             <span></span>
           </label>
         </div>
-        <div id="sidebar-container" className={sidebar ? "show" : "hidden"}>
+        <div id="sidebar-container" className={sidebar ? "" : "hidden"}>
           <ul id="navigation__list">
-            <li><a href="#about-section-container">About</a></li>
-            <li><a href="#portfolio-section-container">Portfolio</a></li>
-            <li><a href="#contact-container">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
         <div id="navigation-row" className="hidden">
           <nav>
             <ul>
-              <li><a href="#about-section-container">About</a></li>
-              <li><a href="#portfolio-section-container">Portfolio</a></li>
-              <li><a href="#contact-container">Contact</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </nav>
         </div>

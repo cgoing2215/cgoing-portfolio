@@ -4,7 +4,7 @@ import LanguagesProficiencies from './img/lang-prof-mobile.png'
 
 function About() {
   return (
-    <div id="about-section-container">
+    <div id="about">
       <h3>ABOUT</h3>
       <div id="about-text">
         <p>
@@ -26,7 +26,7 @@ function About() {
         </p>
         <p>
           Outside of coding, you can find me listening to podcasts in Prospect Park, wandering new neighborhoods in the city,
-          or sitting in a favorite coffee shop, finding the latest trends in web dev and UI design. 
+          or sitting in a favorite coffee shop, finding for the latest trends in web dev and UI design. 
         </p>
         <div id="lang-proficiencies">
           <img src={LanguagesProficiencies} alt="Languages and Proficiences"/>

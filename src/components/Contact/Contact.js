@@ -3,7 +3,7 @@ import './Contact.css'
 
 function Contact() {
   return (
-    <div id="contact-container">
+    <div id="contact">
       <h3>CONTACT</h3>
       <div id="contact-call-to-action">
         <div id="get-in-touch-line">

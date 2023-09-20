@@ -27,7 +27,7 @@ function About() {
         </p>
         <p>
           Outside of coding, you can find me listening to podcasts in Prospect Park, wandering new neighborhoods throughout NYC,
-          or sitting in a favorite coffee shop, finding for the latest trends in web dev and UI design. 
+          or sitting in a favorite coffee shop, finding the latest trends in web dev and UI design. 
         </p>
         <div id="lang-proficiencies">
           <img src={LanguagesProficiencies} alt="Languages and Proficiences"/>

@@ -14,7 +14,7 @@ function ProjectCards(props) {
         <p id="project-description">
             {props.description}
         </p>
-        <a href={props.link}><button>live page</button></a>
+        <a href={props.link} target="_blank" rel="noopener noreferrer"><button>live page</button></a>
     </div>
   )
 }

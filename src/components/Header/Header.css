@@ -1,16 +1,17 @@
 #intro-section {
     background-image: url('./img/tablet-hero-shapes.png');
-    background-size: 120%;
+    background-size: 150%;
     background-repeat: no-repeat;
-    background-position: 80% 0%;
+    background-position: 100% 0%;
     height: 70vh;
-    margin-top: 6.5rem;
+    margin-top: 1rem;
+    padding-top: 3rem;
 }
 
 #intro-section h1 {
     background: #c0c305;
     color: white;
-    width: 13rem;
+    width: 12rem;
     height: 6rem;
     flex-shrink: 0;
     display: flex;
@@ -54,7 +55,7 @@
     align-items: center;
     text-align: left;
     padding: .5rem;
-    margin-top: 4rem;
+    margin-top: 2.75rem;
     margin-left: 1rem;
 }
 
@@ -74,7 +75,9 @@
 
 @media (min-width: 34rem){
     #intro-section {
-        background-position: 30% 0%;
+        background-size: 120%;
+        padding-top: 4rem;
+        height: 60vh;
     }
 
     #intro-section h1 {
@@ -94,6 +97,12 @@
 }
 
 @media (min-width: 42rem){
+    #intro-section {
+        background-size: 100%;
+        padding-top: 5rem;
+        height: 60vh;
+    }
+
     #intro-section h1 {
         margin-left: 20%;
     }
@@ -109,23 +118,23 @@
 }
 
 @media (min-width: 52rem){
+    #intro-section {
+        padding-top: 6rem;
+    }
+
     #intro-section h3 {
-        margin-left: 45%;
+        margin-left: 35%;
     }
 
 }
 
-@media (min-width: 62.5rem){
+@media (min-width: 64rem){
     #intro-section {
-        background-image: url('./img/x-large-desktop-hero-shapes.png');
-        background-repeat: no-repeat;
+        background-size: 100%;
+        padding-top: 7rem;
     }
 }
 
 @media (min-width: 81rem){
-    #intro-section {
-        background-image: url('./img/x-large-desktop-hero-shapes.png');
-        background-size: 140%;
-        background-position: 45% 50%;
-    }
+
 }

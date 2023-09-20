@@ -134,22 +134,37 @@
 }
 
 @media (min-width: 51rem){
+    #about {
+        margin-top: 10%;
+    }
+
+    #about h3{
+        margin-right: 24%;
+        margin-left: auto;
+    }
+
     #about-text {
         margin: 14.5rem 10% 3.5rem 10%;
     }
 }
 
-@media (min-width: 62.5rem){
-
-    #about {
-        margin-top: 0rem;
-        width: 90%;
+@media (min-width: 56rem){
+    #about h3{
+        margin-right: 22%;
+        margin-left: auto;
     }
 }
 
 @media (min-width: 66rem){
     #about h3{
         margin-right: 20%;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 72rem){
+    #about h3{
+        margin-right: 18%;
         margin-left: auto;
     }
 }

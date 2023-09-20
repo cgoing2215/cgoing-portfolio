@@ -25,14 +25,14 @@ a {
     margin-bottom: 0.5rem;
 }
 
-#contact {
+#contact-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#contact a {
+#contact-section a {
     text-align: center;
     font-size: 1rem;
     font-style: normal;
@@ -41,7 +41,7 @@ a {
     margin-bottom: 0;
 }
 
-#contact p {
+#contact-section p {
     margin-top: 0.5rem;
 }
 
@@ -71,7 +71,7 @@ a {
         display: none;
     }
 
-    #contact a {
+    #contact-section a {
         font-size: 1.1rem;
     }
 }

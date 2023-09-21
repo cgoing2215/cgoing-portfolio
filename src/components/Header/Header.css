@@ -126,16 +126,30 @@
     #intro-section h3 {
         margin-left: 35%;
     }
-
 }
 
-@media (min-width: 64rem){
+@media (min-width: 60rem){
     #intro-section {
-        background-size: 100%;
-        padding-top: 7rem;
+        background-image: url('./img/desktop-hero-shapes.png');
+        background-size: 140%;
+        padding-top: 6rem;
+    }
+}
+
+@media (min-width: 76rem){
+    #intro-section {
+        background-size: 120%;
+        background-position: 100% 30%;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
 }
 
 @media (min-width: 81rem){
-
+    #intro-section {
+        background-image: url('./img/x-large-desktop-hero-shapes.png');
+        background-position: 0% 30%;
+        padding-top: 3rem;
+        padding-bottom: 12rem;
+    }
 }

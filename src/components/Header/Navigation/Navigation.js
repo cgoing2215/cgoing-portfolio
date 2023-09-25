@@ -1,12 +1,17 @@
 import React, { useState } from 'react'
 import './Navigation.css'
 
-
 function Navigation() {
   const [sidebar, setSidebar] = useState(false);
 
   const showSideBar = () => {
     setSidebar(!sidebar);
+    
+    if (!sidebar) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto"; 
+    }
   };
 
   return (

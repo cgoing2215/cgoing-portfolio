@@ -36,7 +36,7 @@ function Projects() {
         link="https://cgoing2215.github.io/guess-the-word/"
       />
       <ProjectCards 
-        title= "GitHub Repo"
+        title= "GitHub Repo Gallery"
         img={GithubRepo}
         alt="GitHub Repo Gallery"
         description="Gallery of github repos.

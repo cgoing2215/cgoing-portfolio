@@ -145,7 +145,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3){
   transform: translateX(-10%);
   position: absolute;
   z-index: 1;
-  animation: fadeInAnimation 1s;
+  animation: fadeInAnimation .5s;
 }
 
 #navigation__list {
@@ -157,7 +157,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3){
   top: 35%;
   overflow: hidden;
   position: fixed;
-  animation: fadeInAnimation 2s;
+  animation: fadeInAnimation 1s;
 }
 
 #navigation__list li {

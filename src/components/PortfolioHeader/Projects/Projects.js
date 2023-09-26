@@ -6,7 +6,7 @@ import GithubRepo from './Project-images/github-repo-gallery.png'
 import StickyNotes from './Project-images/stickynotes-app.png'
 import JoannaGoing from './Project-images/joanna-going-design.png'
 import Unplugged from './Project-images/Unplugged.png'
-import UnitConverter from './Project-images/metric-unit-converter.png'
+import NameTag from './Project-images/nametag-generator.png'
 
 function Projects() {
   return (
@@ -29,11 +29,21 @@ function Projects() {
         alt="Sticky Notes App"
         description="Interactive app that lets 
         users create, edit, search through and delete “sticky notes” 
-        on their computer to help keep track of to-do's. Made 
+        on their computer, helping to keep track of to-do's. Made 
         using ES6, JSX. App operates on lifecycle methods, 
         manages data flow, and manipulates the DOM."
         skills="HTML, CSS, Javascript, React"
         link="https://sticky-note-app-kappa.vercel.app/"
+      />
+      <ProjectCards 
+        title= "Name Tag Generator"
+        img={NameTag}
+        alt="Name Tag Generator"
+        description="Allows user to generate name tags. User
+         can create name tags in bulk using functional components
+          and ES6 modules. Built using HTML, CSS, Javascript, React."
+        skills="HTML, CSS, Javascript, React"
+        link="https://nametag-generator.vercel.app/"
       />
       <ProjectCards 
         title= "GitHub Repo Gallery"
@@ -71,16 +81,6 @@ function Projects() {
         responsive across browser sizes."
         skills="HTML, CSS"
         link="https://cgoing2215.github.io/unplugged-project/"
-      />
-      <ProjectCards 
-        title= "Metric Unit Conversion"
-        img={UnitConverter}
-        alt="Metric Unit Conversion"
-        description="App that takes user input and converts
-        the unit between meters & feet (length), liters & 
-        gallons (volume), kilograms & pounds (mass)."
-        skills="HTML, CSS, Javascript"
-        link="https://cgoing2215.github.io/unit-converter/"
       />
     </div>
   )

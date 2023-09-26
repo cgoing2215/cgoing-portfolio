@@ -11,7 +11,6 @@ function Footer() {
         <div id="contact-section">
             <h3>Contact</h3>
             <a href="mailto:hi@carolinegoing.com">hi@carolinegoing.com</a>
-            <p>847.840.3384</p>
         </div>
         <div id="social">
             <h3>Social</h3>

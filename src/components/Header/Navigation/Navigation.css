@@ -148,8 +148,9 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3){
 }
 
 #navigation__list {
-  width: 70%;
+  width: 60%;
   list-style: none;
+  line-height: 2.5rem;
   text-align: left;
   display: block;
   top: 35%;

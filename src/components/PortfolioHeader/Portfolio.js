@@ -10,7 +10,7 @@ function PortfolioHeader() {
         <Projects />
       </div>
       <div id="button-section">
-        <a href="https://github.com/cgoing2215" target="_blank" rel="noopener noreferrer"><button id="github-btn">github</button></a>
+        <a href="https://github.com/cgoing2215" target="_blank" rel="noopener noreferrer"><button id="github-btn">GitHub</button></a>
       </div>
     </div>
   )

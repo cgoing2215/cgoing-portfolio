@@ -28,11 +28,13 @@ function Navigation() {
             <span></span>
             <span></span>
             <span></span>
+            <span></span>
           </label>
         </div>
         <div id="sidebar-container" className={sidebar ? "" : "hidden"}>
           <ul id="navigation__list">
             <li><a href="#about" onClick={showSideBar}>About</a></li>
+            <li><a href="#skills" onClick={showSideBar}>Skills</a></li>
             <li><a href="#portfolio" onClick={showSideBar}>Portfolio</a></li>
             <li><a href="#contact" onClick={showSideBar}>Contact</a></li>
           </ul>
@@ -41,6 +43,7 @@ function Navigation() {
           <nav>
             <ul>
               <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
               <li><a href="#portfolio">Portfolio</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>

@@ -30,7 +30,7 @@ function About() {
           or sitting in a favorite coffee shop, finding the latest trends in web dev and UI design. 
         </p>
         <div id="lang-proficiencies">
-          <img src={LanguagesProficiencies} alt="Languages and Proficiences"/>
+          <img src={LanguagesProficiencies} alt="Languages and Proficiences" id="skills"/>
           <a href="https://docs.google.com/document/d/1BVo_wXaxB6FPguerlDcMcNPewvYaD4IlOHLR6k8eAwE/edit" target="_blank" rel="noopener noreferrer"><button id="resume-btn">view resume</button></a>
         </div>
       </div>

@@ -3,7 +3,7 @@ import './Projects.css'
 import ProjectCards from './ProjectCards'
 import GuessTheWord from './Project-images/guesstheword.png'
 import GithubRepo from './Project-images/github-repo-gallery.png'
-import RandomPw from './Project-images/random-pw.png'
+import StickyNotes from './Project-images/stickynotes-app.png'
 import JoannaGoing from './Project-images/joanna-going-design.png'
 import Unplugged from './Project-images/Unplugged.png'
 import UnitConverter from './Project-images/metric-unit-converter.png'
@@ -20,8 +20,33 @@ function Projects() {
         of home, about, project (+ 3 sub-project 
         pages) and contact pages to elevate her 
         brand and business."
-        skills="JavaScript, HTML, CSS"
+        skills="HTML, CSS, Javascript"
         link="https://joannagoingdesign.com/"
+      />
+      <ProjectCards 
+        title= "Sticky Notes App"
+        img={StickyNotes}
+        alt="Sticky Notes App"
+        description="Interactive app that lets 
+        users create “sticky notes” on their computer 
+        to keep track of to-do items. Made using ES6, JSX. 
+        App manages data flow, and manipulates the DOM."
+        skills="HTML, CSS, Javascript, React"
+        link="https://sticky-note-app-kappa.vercel.app/"
+      />
+      <ProjectCards 
+        title= "GitHub Repo Gallery"
+        img={GithubRepo}
+        alt="GitHub Repo Gallery"
+        description="Gallery of GitHub repos.
+        Allows user to search for a repo, 
+        narrowing results shown. When clicked,
+        the repo button will open into a profile
+        with a description of the project. 
+        Synced to GitHub profile, automatically
+        updates."
+        skills="HTML, CSS, Javascript"
+        link="https://cgoing2215.github.io/github-repo-gallery/"
       />
       <ProjectCards 
         title= "Guess the Word"
@@ -32,36 +57,8 @@ function Projects() {
           translated into dots that represent 
           letters in the word. User guesses letters, 
           with a limit of 8 incorrect guesses."
-        skills="JavaScript, HTML, CSS"
+        skills="HTML, CSS, Javascript"
         link="https://cgoing2215.github.io/guess-the-word/"
-      />
-      <ProjectCards 
-        title= "GitHub Repo Gallery"
-        img={GithubRepo}
-        alt="GitHub Repo Gallery"
-        description="Gallery of github repos.
-        Allows user to search for a repo, 
-        narrowing results shown. When clicked,
-        the repo button will open into a profile
-        with a description of the project. 
-        Synced to Github profile, automatically
-        updates."
-        skills="JavaScript, HTML, CSS"
-        link="https://cgoing2215.github.io/github-repo-gallery/"
-      />
-      <ProjectCards 
-        title= "Random Password Generator"
-        img={RandomPw}
-        alt="Random Password Generator"
-        description="Allows user to create two 
-        random passwords: Looping through an 
-        array of 91 characters, 15 random 
-        characters are pulled, generating a 
-        password. This then populates the 
-        interface with two passwords, which
-        can be copied to clipboard."
-        skills="JavaScript, HTML, CSS"
-        link="https://cgoing2215.github.io/random-password-generator/"
       />
       <ProjectCards 
         title= "Unplugged Retreat"
@@ -81,10 +78,9 @@ function Projects() {
         description="App that takes user input and converts
         the unit between meters & feet (length), liters & 
         gallons (volume), kilograms & pounds (mass)."
-        skills="JavaScript, HTML, CSS"
+        skills="HTML, CSS, Javascript"
         link="https://cgoing2215.github.io/unit-converter/"
       />
-
     </div>
   )
 }

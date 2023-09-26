@@ -15,9 +15,9 @@ function Footer() {
         <div id="social">
             <h3>Social</h3>
             <div id="logos">
-                <a href="https://www.linkedin.com/in/caroline-going-a2b4ab122/"><img src={LinkedIn} alt="LinkedIn Logo"/></a>
-                <a href="https://github.com/cgoing2215"><img src={GitHub} alt="GitHub Logo"/></a>
-                <a href="https://medium.com/@carolinegoing2"><img src={Medium} alt="Medium Logo"/></a>
+                <a href="https://www.linkedin.com/in/caroline-going-a2b4ab122/" target="_blank" rel="noopener noreferrer"><img src={LinkedIn} alt="LinkedIn Logo"/></a>
+                <a href="https://github.com/cgoing2215" target="_blank" rel="noopener noreferrer"><img src={GitHub} alt="GitHub Logo"/></a>
+                <a href="https://medium.com/@carolinegoing2" target="_blank" rel="noopener noreferrer"><img src={Medium} alt="Medium Logo"/></a>
             </div>
         </div>
       </div>

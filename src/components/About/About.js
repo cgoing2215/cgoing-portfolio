@@ -16,8 +16,8 @@ function About() {
           modern design.
         </p>
         <p>
-          Within two months, I completed the <a href="https://skillcrush.com/">SkillCrush</a> Break-Into-Tech bootcamp, 
-          learning FE languages alongside fundamental web design principles. I built out numerous <a href="#portfolio-section-container">projects</a>, sites, and 
+          Within two months, I completed the <a href="https://skillcrush.com/" target="_blank" rel="noopener noreferrer">SkillCrush</a> Break-Into-Tech bootcamp, 
+          learning FE languages alongside fundamental web design principles. I built out numerous <a href="#portfolio">projects</a>, sites, and 
           applications that allow for varied user experiences, and crafted designs that appeal to broad audiences. 
         </p>
         <p>

@@ -28,9 +28,10 @@ function Projects() {
         img={StickyNotes}
         alt="Sticky Notes App"
         description="Interactive app that lets 
-        users create “sticky notes” on their computer 
-        to keep track of to-do items. Made using ES6, JSX. 
-        App manages data flow, and manipulates the DOM."
+        users create, edit, search through and delete “sticky notes” 
+        on their computer to help keep track of to-do's. Made 
+        using ES6, JSX. App operates on lifecycle methods, 
+        manages data flow, and manipulates the DOM."
         skills="HTML, CSS, Javascript, React"
         link="https://sticky-note-app-kappa.vercel.app/"
       />

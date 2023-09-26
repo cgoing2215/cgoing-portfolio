@@ -27,11 +27,11 @@ function Projects() {
         title= "Sticky Notes App"
         img={StickyNotes}
         alt="Sticky Notes App"
-        description="Interactive app that lets 
-        users create, edit, search through and delete “sticky notes” 
-        on their computer, helping to keep track of to-do's. Made 
-        using ES6, JSX. App operates on lifecycle methods, 
-        manages data flow, and manipulates the DOM."
+        description="Interactive app that lets users create, 
+        edit, search through and delete “sticky notes, to 
+        help keep track of to-do's. Made using ES6, JSX. 
+        App operates on lifecycle methods, manages data flow, 
+        and manipulates the DOM."
         skills="HTML, CSS, Javascript, React"
         link="https://sticky-note-app-kappa.vercel.app/"
       />
@@ -41,7 +41,7 @@ function Projects() {
         alt="Name Tag Generator"
         description="Allows user to generate name tags. User
          can create name tags in bulk using functional components
-          and ES6 modules. Built using HTML, CSS, Javascript, React."
+         and ES6 modules. Built using HTML, CSS, Javascript, React."
         skills="HTML, CSS, Javascript, React"
         link="https://nametag-generator.vercel.app/"
       />

@@ -20,7 +20,7 @@ function Projects() {
         of home, about, project (+ 3 sub-project 
         pages) and contact pages to elevate her 
         brand and business."
-        skills="HTML, CSS, Javascript"
+        skills="HTML, CSS, JavaScript"
         link="https://joannagoingdesign.com/"
       />
       <ProjectCards 
@@ -29,10 +29,10 @@ function Projects() {
         alt="Sticky Notes App"
         description="Interactive app that lets users create, 
         edit, search through and delete “sticky notes, to 
-        help keep track of to-do's. Made using ES6, JSX. 
+        help keep track of to-do's. Made using ES6 and JSX. 
         App operates on lifecycle methods, manages data flow, 
         and manipulates the DOM."
-        skills="HTML, CSS, Javascript, React"
+        skills="HTML, CSS, JavaScript, React"
         link="https://sticky-note-app-kappa.vercel.app/"
       />
       <ProjectCards 
@@ -42,7 +42,7 @@ function Projects() {
         description="Allows user to generate name tags. User
          can create name tags in bulk using functional components
          and ES6 modules. Built using HTML, CSS, Javascript, React."
-        skills="HTML, CSS, Javascript, React"
+        skills="HTML, CSS, JavaScript, React"
         link="https://nametag-generator.vercel.app/"
       />
       <ProjectCards 
@@ -56,7 +56,7 @@ function Projects() {
         with a description of the project. 
         Synced to GitHub profile, automatically
         updates."
-        skills="HTML, CSS, Javascript"
+        skills="HTML, CSS, JavaScript"
         link="https://cgoing2215.github.io/github-repo-gallery/"
       />
       <ProjectCards 
@@ -68,7 +68,7 @@ function Projects() {
           translated into dots that represent 
           letters in the word. User guesses letters, 
           with a limit of 8 incorrect guesses."
-        skills="HTML, CSS, Javascript"
+        skills="HTML, CSS, JavaScript"
         link="https://cgoing2215.github.io/guess-the-word/"
       />
       <ProjectCards 

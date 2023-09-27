@@ -166,6 +166,10 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3){
   letter-spacing: .15rem;
 }
 
+#navigation__list li a:hover {
+  color: #c0c305;
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 22rem){
@@ -208,6 +212,10 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3){
     font-family: 'Hubballi', cursive;
     font-size: 1rem;
     color: #AF5C98;
+  }
+
+  #navigation-row a:hover {
+    color: #4650AB;
   }
 
   #navigation-row ul li {

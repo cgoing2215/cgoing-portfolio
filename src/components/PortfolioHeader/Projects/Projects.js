@@ -41,7 +41,7 @@ function Projects() {
         alt="Name Tag Generator"
         description="Allows user to generate name tags. User
          can create name tags in bulk using functional components
-         and ES6 modules. Built using HTML, CSS, Javascript, React."
+         and ES6 modules. Built using HTML, CSS, JavaScript, React."
         skills="HTML, CSS, JavaScript, React"
         link="https://nametag-generator.vercel.app/"
       />

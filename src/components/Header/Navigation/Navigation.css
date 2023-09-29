@@ -59,7 +59,7 @@ span:nth-of-type(2){
 }
  
 span:nth-of-type(3){
-  background: #AF5C98;
+  background: #d33a9b;
   width: 85%;
 }
 
@@ -111,7 +111,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3){
   color: #FFF;
   text-align: center;
   font-family: 'Hubballi', cursive;
-  font-size: 1.5rem;
+  font-size: 1.55rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -210,8 +210,8 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3){
 
   #navigation-row a {
     font-family: 'Hubballi', cursive;
-    font-size: 1rem;
-    color: #AF5C98;
+    font-size: 1.35rem;
+    color: #d33a9b;
   }
 
   #navigation-row a:hover {
@@ -219,12 +219,12 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3){
   }
 
   #navigation-row ul li {
-    padding: .5rem 1rem;
+    padding: .5rem .75rem;
     text-align: center;
     font-family: Baloo 2;
     font-size: 0.9375rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: normal;
   }
 }

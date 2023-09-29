@@ -39,8 +39,8 @@
 }
 
 #button-section button {
-    width: 15rem;
-    padding: .75rem;
+    width: 12rem;
+    padding: .5rem;
     margin: .25rem 0;
     border: none;
     border-radius: 5px;
@@ -48,10 +48,10 @@
     justify-content: center;
     align-items: center;
     font-family: 'Hubballi', sans-serif;
-    font-size: 1rem;
+    font-size: 1.35rem;
     letter-spacing: .15rem;
     color: white;
-    background: #e278c4;
+    background: #d33a9bc8;
 }
 
 #button-section button:hover {

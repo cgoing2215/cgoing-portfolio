@@ -8,9 +8,9 @@ function Header() {
         <Navigation />
         <div id="intro-section">
             <h1>Hello</h1>
-            <h3>
+            <h2>
                 I'm Caroline, I'm a front-end web developer.
-            </h3>
+            </h2>
             <p>
                 I can help you build an app, product or website.
             </p>

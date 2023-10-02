@@ -8,7 +8,7 @@
     background: rgb(237, 237, 237);
 }
 
-#contact h3 {
+#contact h1 {
     background: #B0B404;
     width: 16rem;
     height: 3rem;
@@ -39,7 +39,7 @@
     height: 10rem;
 }
 
-#contact-call-to-action h5{
+#contact-call-to-action h2{
     font-family: Bellota Text;
     font-size: 1.35rem;
     font-weight: light;

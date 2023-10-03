@@ -1,3 +1,43 @@
+.navigation {
+  width: 90%;
+  transform: translateX(5%);
+  height: 3rem;
+  background-color: #b9b7b7;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+#navigation-container {
+  width: 100%;
+  text-align: center;
+}
+
+.navigation h4 {
+  color: #FFF;
+  text-align: center;
+  font-family: 'Hubballi', cursive;
+  font-size: 1.55rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.21rem;
+  animation: fadeInAnimation 5s;
+}
+
+.navigation ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  padding: 0 0 25px 0;
+}
+
+.navigation ul li {
+  list-style-type: none;
+  padding-right: 8px;
+}
+
 #top-header-line a {
   display: flex;
   flex-flow: row wrap;
@@ -54,12 +94,12 @@ span:nth-of-type(1){
 }
  
 span:nth-of-type(2){
-  background: #c0c305;
+  background: #d8dc06;
   width: 100%;
 }
  
 span:nth-of-type(3){
-  background: #d33a9b;
+  background: #c8017f;
   width: 85%;
 }
 
@@ -89,46 +129,6 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3){
   transform-origin: bottom;
   width: 100%;
   transform: rotatez(45deg) translate(0px, -5px);
-}
-
-#navigation-container {
-  width: 100%;
-  text-align: center;
-}
-
-.navigation {
-  width: 90%;
-  transform: translateX(5%);
-  height: 3rem;
-  background-color: #cdcbcb;
-  display: flex;
-  flex-flow: row;
-  justify-content: space-between;
-  padding-bottom: 1rem;
-}
-
-.navigation h4 {
-  color: #FFF;
-  text-align: center;
-  font-family: 'Hubballi', cursive;
-  font-size: 1.55rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0.21rem;
-  animation: fadeInAnimation 5s;
-}
-
-.navigation ul {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 20px 0;
-  padding: 0 0 25px 0;
-}
-
-.navigation ul li {
-  list-style-type: none;
-  padding-right: 8px;
 }
 
 /* -- Side Nav Menu --*/
@@ -211,7 +211,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3){
   #navigation-row a {
     font-family: 'Hubballi', cursive;
     font-size: 1.35rem;
-    color: #d33a9b;
+    color: #9a0061;
   }
 
   #navigation-row a:hover {

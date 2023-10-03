@@ -4,12 +4,11 @@
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    margin-top: 0;
-    background: rgb(237, 237, 237);
+    background: #b9b7b7;
 }
 
 #contact h1 {
-    background: #B0B404;
+    background: #b1b401;
     width: 16rem;
     height: 3rem;
     margin-top: 3rem;
@@ -17,7 +16,7 @@
     color: #FFF;
     text-align: center;
     font-family: 'Hubballi', cursive;
-    font-size: 1.75rem;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -91,6 +90,7 @@
 @media (min-width: 31rem){
     #contact {
         height: 50%;
+        margin: 2rem;
     }
 }
 

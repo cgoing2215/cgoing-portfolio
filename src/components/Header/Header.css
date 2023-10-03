@@ -9,7 +9,7 @@
 }
 
 #intro-section h1 {
-    background: #c0c305;
+    background: #b1b401;
     color: white;
     width: 12rem;
     height: 6rem;
@@ -19,7 +19,8 @@
     align-items: flex-end;
     text-align: center;
     font-size: 4rem;
-    font-weight: 400;
+    letter-spacing: .25rem;
+    font-weight: 200;
     margin-left: 1rem;
     padding-left: 1rem;
 }
@@ -30,7 +31,7 @@
     margin-top: 2.5rem;
     margin-left: 20%;
     background: #FFF;
-    color: #d33a9b;
+    color: #9a0061;
     font-family: Bellota Text;
     text-align: left;
     font-size: 1.17rem;

@@ -1,5 +1,5 @@
 #about {
-    background: #cdcbcb;
+    background: #b9b7b7;
     margin-top: 5rem;
     background-image: url("./img/headshot.png");
     background-size: 16rem;
@@ -9,7 +9,7 @@
 
 #about h3{
     color: white;
-    background: #c0c305;
+    background: #b1b401;
     width: 16rem;
     height: 3rem;
     display: flex;
@@ -50,7 +50,7 @@
 }
 
 #about-text a {
-    color: #d33a9b;
+    color: #9a0061;
 }
 
 #lang-proficiencies {

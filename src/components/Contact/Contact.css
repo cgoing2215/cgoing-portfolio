@@ -7,17 +7,17 @@
 }
 
 #contact h1 {
-    background: #b1b401;
+    background: #810051;
     width: 16rem;
     height: 3rem;
     margin-top: 3rem;
     margin-bottom: 0;
-    color: #FFF;
+    color: #ffffff;
     text-align: center;
     font-family: 'Hubballi', cursive;
     font-size: 2rem;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     line-height: normal;
     display: flex;
     justify-content: center;
@@ -61,7 +61,7 @@
     width: 8rem;
     padding: .5rem;
     color: black;
-    background: #b1b40467;
+    background: #d1d405aa;
     border: .5px solid #B0B404;
     border-radius: 5px;
     display: flex;

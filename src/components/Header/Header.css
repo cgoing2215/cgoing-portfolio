@@ -10,9 +10,9 @@
 
 #intro-section h1 {
     background: #b1b401;
-    color: white;
-    width: 12rem;
-    height: 6rem;
+    color: rgb(255, 255, 255);
+    width: 13rem;
+    height: 6.5rem;
     flex-shrink: 0;
     display: flex;
     justify-content: left;
@@ -20,9 +20,9 @@
     text-align: center;
     font-size: 4rem;
     letter-spacing: .15rem;
-    font-weight: 600;
+    font-weight: 200;
     margin-left: 1rem;
-    padding-left: 1rem;
+    padding-left: 1.5rem;
 }
 
 #intro-section h2 {

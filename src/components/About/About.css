@@ -8,7 +8,7 @@
 }
 
 #about h3{
-    color: white;
+    color: rgb(0, 0, 0);
     background: #b1b401;
     width: 16rem;
     height: 3rem;
@@ -17,8 +17,8 @@
     align-items: flex-end;
     text-align: center;
     font-family: 'Hubballi', cursive;
-    font-size: 2.25rem;
-    font-weight: 600;
+    font-size: 2rem;
+    font-weight: 400;
     line-height: normal;
     padding-left: .5rem;
     padding-bottom: .5rem;

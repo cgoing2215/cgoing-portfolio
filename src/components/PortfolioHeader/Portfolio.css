@@ -1,6 +1,7 @@
 #portfolio {
     margin-top: 4.5rem;
     background-image: url(./img/white-rectangle.png);
+    image-rendering: -o-crisp-edges; 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% .1%;
@@ -72,5 +73,30 @@
 @media (max-width: 31rem){
     #button-section button {
         width: 90%;
+    }
+}
+
+@media (min-width: 50.25rem){
+    #portfolio {
+        background-image: url(./img/white-rectangle-tablet.png);
+    }
+}
+
+@media (min-width: 69.3rem){
+    #portfolio {
+        padding-bottom: 12.5%;
+    }
+}
+
+@media (min-width: 75.3rem){
+    #portfolio {
+        background-image: url(./img/white-rectangle-desktop.png);
+    }
+}
+
+@media (min-width: 99.75rem){
+    #portfolio {
+        background-image: url(./img/white-rectangle-desktop-xlarge.png);
+        padding-bottom: 0;
     }
 }

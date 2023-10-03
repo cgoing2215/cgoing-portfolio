@@ -211,7 +211,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3){
   #navigation-row a {
     font-family: 'Hubballi', cursive;
     font-size: 1.35rem;
-    color: #9a0061;
+    color: #810051;
   }
 
   #navigation-row a:hover {

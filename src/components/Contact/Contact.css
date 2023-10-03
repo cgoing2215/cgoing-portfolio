@@ -4,7 +4,6 @@
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    background: #b9b7b7;
 }
 
 #contact h1 {
@@ -18,7 +17,7 @@
     font-family: 'Hubballi', cursive;
     font-size: 2rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: normal;
     display: flex;
     justify-content: center;

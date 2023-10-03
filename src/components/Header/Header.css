@@ -9,7 +9,7 @@
 }
 
 #intro-section h1 {
-    background: #b1b401;
+    background: #9a0061;
     color: rgb(255, 255, 255);
     width: 13rem;
     height: 6.5rem;
@@ -56,7 +56,7 @@
     align-items: center;
     text-align: left;
     padding: .5rem;
-    margin-top: 2.75rem;
+    margin-top: 2.25rem;
     margin-left: 1rem;
 }
 

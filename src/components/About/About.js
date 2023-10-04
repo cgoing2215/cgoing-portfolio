@@ -21,7 +21,7 @@ function About() {
           applications that allow for varied user experiences and design personas. 
         </p>
         <p>
-          My tech recruiting background ingrained a deep-rooted commitment to empathic user-focused design, helping me to
+          My tech recruiting background ingrained in me a deep-rooted commitment to empathic user-focused design, helping me to
           think more strategically about what motivates a candidate and how to inspire them to action. My hope is to take
           this approach with me into my web development career, and bring a new perspective to a technical team.
         </p>

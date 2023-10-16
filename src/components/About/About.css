@@ -4,7 +4,7 @@
     background-image: url("./img/headshot.png");
     background-size: 16rem;
     background-repeat: no-repeat;
-    background-position: 95% 2%;
+    background-position: 93% 2%;
 }
 
 #about h3{
@@ -125,13 +125,13 @@
     }
 
     #about-text {
-        margin: 16rem 10% 3.5rem 10%;
+        margin: 16rem 12% 3.5rem 12%;
     }
 }
 
 @media (min-width: 42rem){
     #about-text {
-        margin: 15.5rem 10% 3.5rem 10%;
+        margin: 15.5rem 12% 3.5rem 12%;
     }
 }
 
@@ -146,7 +146,7 @@
     }
 
     #about-text {
-        margin: 14.5rem 10% 3.5rem 10%;
+        margin: 14.5rem 12% 3.5rem 12%;
     }
 }
 

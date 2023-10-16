@@ -30,12 +30,12 @@
   display: flex;
   flex-wrap: wrap;
   margin: 20px 0;
-  padding: 0 0 25px 0;
+  padding: 0 0 2rem 0;
 }
 
 .navigation ul li {
   list-style-type: none;
-  padding-right: 8px;
+  padding-right: .5rem;
 }
 
 #top-header-line a {

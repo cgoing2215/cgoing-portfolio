@@ -10,7 +10,7 @@ function Footer() {
       <div id="footer-content">
         <div id="contact-section">
             <h3>Contact</h3>
-            <a href="mailto:hi@carolinegoing.com">hi@carolinegoing.com</a>
+            <a href="mailto:carolinegoing2@gmail.com">carolinegoing2@gmail.com</a>
         </div>
         <div id="social">
             <h3>Social</h3>

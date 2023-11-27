@@ -1,6 +1,7 @@
+
 #intro-section {
     background-image: url('./img/tablet-hero-shapes.png');
-    background-size: 150%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: 100% 0%;
     height: 70vh;
@@ -9,20 +10,20 @@
 }
 
 #intro-section h1 {
+    font-family: Bellota Text;
     background: #9a0061;
     color: rgb(255, 255, 255);
-    width: 13rem;
+    width: 12rem;
     height: 6.5rem;
     flex-shrink: 0;
     display: flex;
     justify-content: left;
     align-items: flex-end;
     text-align: center;
-    font-size: 4rem;
-    letter-spacing: .15rem;
+    font-size: 3.75rem;
     font-weight: 200;
-    margin-left: 2rem;
-    padding-left: 1.5rem;
+    margin-left: 1rem;
+    padding-left: 1rem;
 }
 
 #intro-section h2 {
@@ -40,10 +41,6 @@
 }
 
 #intro-section p {
-    width: 16rem;
-    height: 3rem;
-    flex-shrink: 0;
-    display: flex;
     background: #4650AB;
     color: #FFF;
     font-family: Bellota Text;
@@ -51,6 +48,9 @@
     font-style: normal;
     font-weight: 400;
     line-height: 1.25rem;
+    width: 16rem;
+    height: 3rem;
+    flex-shrink: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,9 +76,8 @@
 
 @media (min-width: 34rem){
     #intro-section {
-        background-size: 120%;
         padding-top: 4rem;
-        height: 70vh;
+        height: 80vh;
     }
 
     #intro-section h1 {
@@ -99,9 +98,8 @@
 
 @media (min-width: 42rem){
     #intro-section {
-        background-size: 100%;
         padding-top: 5rem;
-        height: 60vh;
+        height: 80vh;
     }
 
     #intro-section h1 {
@@ -131,15 +129,12 @@
 
 @media (min-width: 60rem){
     #intro-section {
-        background-image: url('./img/desktop-hero-shapes.png');
-        background-size: 140%;
         padding-top: 6rem;
     }
 }
 
 @media (min-width: 76rem){
     #intro-section {
-        background-size: 120%;
         background-position: 100% 30%;
         padding-top: 3rem;
         padding-bottom: 3rem;
@@ -148,7 +143,6 @@
 
 @media (min-width: 81rem){
     #intro-section {
-        background-image: url('./img/x-large-desktop-hero-shapes.png');
         background-position: 0% 30%;
         padding-top: 3rem;
         padding-bottom: 12rem;

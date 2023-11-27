@@ -8,7 +8,9 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div className="App fade-in">
+      <div className='sticky-header'>
         <Header />
+      </div>
         <About />
         <PortfolioHeader />
         <Contact />

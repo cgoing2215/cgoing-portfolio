@@ -36,7 +36,7 @@
 }
 
 #about-text {
-    margin: 17.5rem 2.25rem 3.5rem 2.25rem;
+    margin: 17.5rem 2.5rem 3.5rem 2.5rem;
 }
 
 #about-text p {
@@ -131,7 +131,7 @@
 
 @media (min-width: 42rem){
     #about-text {
-        margin: 15.5rem 12% 3.5rem 12%;
+        margin: 15.5rem 13% 3.5rem 13%;
     }
 }
 
@@ -146,7 +146,7 @@
     }
 
     #about-text {
-        margin: 14.5rem 12% 3.5rem 12%;
+        margin: 14.5rem 14% 3.5rem 14%;
     }
 }
 

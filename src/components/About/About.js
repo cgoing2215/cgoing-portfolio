@@ -31,7 +31,7 @@ function About() {
         </p>
         <div id="lang-proficiencies">
           <img src={LanguagesProficiencies} alt="Languages and Proficiences" id="skills"/>
-          <a href="https://docs.google.com/document/d/1P7WbtZsNgHSNaHU7Uso4iTG7zFVO6FkmN0_EVHXYGew/edit" target="_blank" rel="noopener noreferrer"><button id="resume-btn">view resume</button></a>
+          <a href="https://docs.google.com/document/d/e/2PACX-1vRv5RTf4egFNEP-Vl-u4ccp9cgYZpzumdVHgtwN1o-2ghkeDKqRnORrz6t9OcNjRY8AJs16i9VZO6XH/pub" target="_blank" rel="noopener noreferrer"><button id="resume-btn">view resume</button></a>
         </div>
       </div>
     </div>
